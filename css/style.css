@@ -38,7 +38,6 @@ h2 {
       align-items: center;
       flex-direction: row;
       background-color: cadetblue;
-      margin-top: 1rem;
       color: white;
       padding: 1rem 2rem;
       width: 960px;
@@ -200,18 +199,6 @@ footer {
       width: 960px;
 }
 
-/* .logomenu {
-  display: flex;
-      justify-content: space-between;
-      align-content: flex-start;
-      align-items: center;
-      flex-direction: row;
-      margin-top: 1rem;
-      color: white;
-      padding: 1rem 2rem;
-      width: 960px;
-} */
-
 .logo {
     display: flex;
     justify-content: flex-start;
@@ -224,3 +211,37 @@ footer {
   width: 4rem;
   padding-right: 0.5rem;
 }
+
+/* End Footer */
+
+/* Begin 960px Media Queries 
+
+@media only screen and (max-width: 960px) {
+  .maincontainer {
+    width:100%;
+    display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-image: url(../resources/glasses-bg.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 28rem;
+  }
+
+  .logomenu {
+    display: flex;
+        justify-content: space-between;
+        align-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        background-color: cadetblue;
+        color: white;
+        padding: 1rem 2rem;
+        width: 93%;
+  }
+
+
+  }
+} */
