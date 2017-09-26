@@ -1,50 +1,49 @@
 body {
     margin: 0;
     padding: 0;
-}
+  }
 
 html {
-  font-family: Helvetica, san-serif;
-  font-size: 18px;
-}
+    font-family: Helvetica, san-serif;
+    font-size: 18px;
+  }
 
 .maincontainer {
-  margin: 0 auto;
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      width: 100%;
-}
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 
 .image {
-  display: flex;
-      justify-content: space-between;
-      align-content: flex-start;
-      align-items: center;
-      flex-direction: row;
-  background-image: url(../resources/glasses-bg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 30rem;
-  position: absolute;
-  z-index: 0;
-}
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    background-image: url(../resources/glasses-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 30rem;
+    position: absolute;
+    z-index: 0;
+  }
 
 .logomenu {
-  display: flex;
-      justify-content: space-between;
-      align-content: flex-start;
-      align-items: center;
-      flex-direction: row;
-      background-color: cadetblue;
-      color: white;
-      margin-top: 1rem;
-      padding: 1rem 2rem;
-      width: 960px;
-      position: relative;
-      z-index: 1;
-}
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    background-color: cadetblue;
+    color: white;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    width: 960px;
+    position: relative;
+    z-index: 1;
+  }
 
 .logo {
     display: flex;
@@ -52,53 +51,49 @@ html {
     align-items: center;
     flex-direction: row;
     height: 1.5rem;
-}
+  }
 
 .whitelogo {
-  width: 4rem;
-  padding-right: .5rem;
-}
+    width: 4rem;
+    padding-right: .5rem;
+  }
 
 .navigation {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  margin-left: 22rem;
-}
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 22rem;
+  }
 
 .navigation li {
-  padding-left: 2rem;
-}
+    padding-left: 2rem;
+  }
 
 .menu {
-  display: none;
-}
-
-.hidemenu {
-  display: none;
-}
+    display: none;
+  }
 
 .text {
-      font-family: Helvetica, sans-serif;
-      font-weight: bold;
-      font-size: 2rem;
-      line-height: 1.2;
-      padding: 1.5rem 5rem;
-      background-color: white;
-      margin: 10rem 0 10rem 25rem;
-      position: relative;
-      z-index: 1;
-}
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.2;
+    padding: 1.5rem 5rem;
+    background-color: white;
+    margin: 10rem 0 10rem 25rem;
+    position: relative;
+    z-index: 1;
+  }
 
 .content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 960px;
-  z-index: 1;
-  margin: 3rem auto;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 960px;
+    z-index: 1;
+    margin: 3rem auto;
+  }
 
 /* Starts Icon and text placement */
 
@@ -106,123 +101,123 @@ html {
 
   /* Defining top container */
 .toprow {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  margin-top: 3rem;
-}
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 3rem;
+  }
 
 .item {
-  width: 5rem;
-  padding: 0 3rem;
-}
+    width: 5rem;
+    padding: 0 3rem;
+  }
 
 /* Starts text placement */
 
   /* Defining middle container */
 .middlerow {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-direction: row;
-}
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+  }
 
 .iconrow {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  padding-top: 0.5rem;
-}
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 0.5rem;
+  }
 
 .icon1 {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  flex-direction: column;
-}
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 
 .icon1 img{
-  width: 3.5rem;
-}
+    width: 3.5rem;
+  }
 
 .icon2 {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  flex-direction: column;
-}
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 
 .icon2 img{
-  width: 5rem;
-}
+    width: 5rem;
+  }
 
 .icon3 {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  flex-direction: column;
-}
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 
 .icon3 img{
-  width: 5rem;
-}
+    width: 5rem;
+  }
 
 .icontext {
-  display: flex;
-      justify-content: center;
-      align-content: center;
-      text-align: center;
-}
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
 
 /* Starts Caption and text placement */
 
   /* Defining bottom container */
 
 .bottomrow {
-  display: flex;
-  align-content: center;
-  flex-direction: row;
-  padding: 3rem 19rem 0 19rem;
-}
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    padding: 3rem 19rem 0 19rem;
+  }
 
 .lowerblock {
-  display: flex;
-      align-content: flex-start;
-      flex-direction: column;
-      padding: 0 1rem;
-      width: 100%;
-      line-height: 1.25rem;
-}
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    padding: 0 1rem;
+    width: 100%;
+    line-height: 1.25rem;
+  }
 
 .title {
-  color: white;
-  font-weight: bold;
-  font-size: 1rem;
-  padding: 0.5rem 1.25rem;
-  background-color: cadetblue;
-  width: 10rem;
-}
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.5rem 1.25rem;
+    background-color: cadetblue;
+    width: 10rem;
+  }
 
 .blocktext {
     padding-top: 1rem;
-}
+  }
 
 /* Starts footer placement */
 
 footer {
-  display: flex;
-  justify-content: space-between;
-  align-content: flex-start;
-  align-items: center;
-  flex-direction: row;
-  margin-top: 5rem;
-  height: 9rem;
-  padding-left: 4rem;
-  background-color: azure;
-}
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 5rem;
+    height: 9rem;
+    padding-left: 4rem;
+    background-color: azure;
+  }
 
 .logo {
     display: flex;
@@ -230,13 +225,12 @@ footer {
     align-items: center;
     flex-direction: row;
     height: 1.5rem;
-    padding-left: 4rem;
-}
+  }
 
 .blacklogo {
-  width: 4rem;
-  padding-right: 0.5rem;
-}
+    width: 4rem;
+    padding-right: 0.5rem;
+  }
 
 /* End Footer */
 
@@ -244,150 +238,81 @@ footer {
 
 @media only screen and (max-width: 960px) {
 
-    h2 {
-        color: white;
-        font-weight: bold;
-        font-size: 1rem;
-        padding: 0.5rem 1rem;
-        background-color: cadetblue;
-        width: 10rem;
-      }
-
-    footer {
-          display: flex;
-          justify-content: space-between;
-          align-content: flex-start;
-          align-items: center;
-          flex-direction: row;
-          margin-left: 4rem;
-          width: 100%;
-          height: 6rem;
-        }
-
-  .maincontainer {
-    margin: 0 auto 0.5rem 0;
+.maincontainer {
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
+    width: 100%;
+    height: 22rem;
   }
 
-  .logomenu {
-        display: flex;
-        justify-content: space-between;
-        align-content: flex-start;
-        align-items: center;
-        flex-direction: row;
-        background-color: cadetblue;
-        color: white;
-        padding: 1rem 2rem;
-        width: 93%;
+.image {
+    background-image: url(../resources/glasses-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 22rem;
+    position: absolute;
+    z-index: 0;
   }
 
-  .text {
+
+.navigation {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: row;
+    margin-left: 18rem;
+  }
+
+.logomenu {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0;
+    width: 93%;
+  }
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    height: 1.5rem;
+  }
+
+.hidebrandname {
+    width: 9rem;
+  }
+
+.text {
     font-family: Helvetica, sans-serif;
     font-weight: bold;
     font-size: 1.33rem;
+    line-height: 1.2;
     padding: 0.75rem 4rem;
     background-color: white;
-    width: 30%;
-    margin: 5rem 0 5rem 27rem;  }
-
-  .toprow {
-    display: flex;
-    align-content: center;
-    margin-top: 3rem;
+    margin: 4rem 0rem 4rem 26rem;
+    position: relative;
+    z-index: 1;
   }
 
 .bottomrow {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  padding: 3rem 11rem;
-  }
-
-.lowerblock {
     display: flex;
     align-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    padding: 0 1rem;
-    width: 40%;
-    line-height: 1.25rem;
+    flex-direction: row;
+    width: 37rem;
+    padding: 3rem 8.25rem 0 8.25rem;
   }
+
 }
 /* End 960px Media Queries*/
 
 
 /* Begin 410px Media Queries */
 
-  @media only screen and (max-width: 410px) {
+@media only screen and (max-width: 410px) {
 
-    .maincontainer {
-      margin: 0
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      width: 100%;
-    }
 
-.hidebrandname {
-  display: none;
-}
-
-.hidelistitems {
-  display: none;
-}
-
-    .logomenu {
-          display: flex;
-          justify-content: space-between;
-          align-content: flex-start;
-          align-items: center;
-          flex-direction: row;
-          background-color: cadetblue;
-          color: white;
-          padding: 1rem 2rem;
-          width: 83%;
-    }
-
-    .text {
-      margin: 1rem 0;
-      display: flex;
-      justify-content: center;
-      flex-direction: row;
-      font-family: Helvetica, sans-serif;
-      font-weight: bold;
-      font-size: 1rem;
-      padding: 0.75rem 2rem;
-      background-color: white;
-      width: 83%;
-      }
-
-    .toprow {
-      display: flex;
-      align-content: center;
-      margin-top: 3rem;
-    }
-
-  .bottomrow {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    padding: 3rem 11rem;
-    }
-
-  .lowerblock {
-      display: flex;
-      align-content: center;
-      align-items: flex-start;
-      flex-direction: column;
-      padding: 0 1rem;
-      width: 40%;
-      line-height: 1.25rem;
-    }
 
 }
 /* End 410px Media Queries */
